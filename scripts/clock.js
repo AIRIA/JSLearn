@@ -30,8 +30,8 @@ var myApp = function(){
 			context.fillStyle = "RGBA(69,69,70,0.5)";
 			context.strokeStyle = "RGB(112,170,50)";
 			context.lineWidth = 2;
-			context.fillRect(-canvas.width/2,-canvas.height/2,canvas.height,canvas.width);
-			context.strokeRect(-canvas.width/2,-canvas.height/2,canvas.height,canvas.width);
+			context.fillRect(-canvas.width/2,-canvas.height/2,canvas.width,canvas.height);
+			context.strokeRect(-canvas.width/2,-canvas.height/2,canvas.width,canvas.height);
 			
 			if(!bgImg){
 				bgImg = new Image();
