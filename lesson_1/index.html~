@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<SCRIPT type="text/javascript" src="index.js"></SCRIPT>
+	</head>
+	<body>
+		<FORM>
+			<INPUT type="button" value="Button" onclick="clickMe()" />
+		</FORM>
+	</body>
+</html>
